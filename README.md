@@ -1,10 +1,10 @@
-<img alt="ignite" src="https://github.com/ricardoltt/watchme/blob/master/.github/background.png" />
+<img alt="ignite" src="https://github.com/ricardoltt/watchme/blob/main/.github/background.png" />
 
 ## :dart: Sobre
 
 O projeto watchme é uma aplicação que exibe uma listagem de filmes por categoria com base na categoria selecionada e de dados de uma API (fake API com JSON Server).<br>
 
-<img alt="exemplo da tela" src="https://github.com/ricardoltt/watchme/blob/master/.github/1.png" />
+<img alt="exemplo da tela" src="https://github.com/ricardoltt/watchme/blob/main/.github/1.png" />
 
 ## :rocket: Tecnologias
 
