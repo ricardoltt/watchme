@@ -1,4 +1,4 @@
-import React from "react";
+import { memo } from "react";
 import { MovieCard } from "./MovieCard";
 
 interface MovieProps {
@@ -13,13 +13,12 @@ interface MovieProps {
 
 
 interface ContentProps {
-  movies:  Array<MovieProps>;
+  movies: Array<MovieProps>;
   titleGender: string;
 }
 
 
-export function Content(props:ContentProps) {
-  // Complete aqui
+export function ContentComponent(props: ContentProps) {
   const { titleGender, movies } = props;
   return (
     <>
@@ -33,7 +32,7 @@ export function Content(props:ContentProps) {
         <div className="movies-list">
           {movies.map((movie) => (
             <MovieCard
-            key={movie.Title}
+              key={movie.Title}
               title={movie.Title}
               poster={movie.Poster}
               runtime={movie.Runtime}
@@ -45,3 +44,7 @@ export function Content(props:ContentProps) {
     </>
   );
 }
+
+export const Content = memo(ContentComponent, (prevProps, nextProps) => {
+  return prevProps.titleGender === nextProps.titleGender;
+});
