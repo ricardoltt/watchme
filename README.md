@@ -49,7 +49,10 @@ $ yarn dev
 
 # The server will initialize in the <http://localhost:8080>
 ```
-<center>
+<div align="center">
 
 ### Let's code! 🚀
+
 Made with love by **Ricardo Temoteo** ❤️ Me adiciona no [Linkedin!](https://www.linkedin.com/in/ricardoltt/)
+
+</div>
