@@ -6,7 +6,7 @@ ___
     <img alt="logo" src="./.github/logo.png" height="50">
 </div>
 
-## :dart: Sobre
+## 💻 Desafio
 
 Uma aplicação de visualização de filmes filtrando por gênero.
 
@@ -14,7 +14,7 @@ Desenvolvido a partir de um projeto pronto, com o objetivo de treinar o conhecim
 
 Essa mesma aplicação foi utilizada para treinar alguns conceitos de performance do React, como o memo, useMemo e useCallback.
 
-<img alt="exemplo da tela" src="./.github/1.png" />
+<img alt="exemplo da tela" src="./.github/1.jpeg" />
 
 ## :rocket: Tecnologias
 
@@ -23,6 +23,12 @@ As seguintes tecnologias foram utilizadas no projeto:
 * [React](https://pt-br.reactjs.org/E)
 * [json-server](https://www.npmjs.com/package/json-server)
 * [axios](https://axios-http.com/ptbr/docs/intro)
+
+## 🔖 Funcionalidades:
+- Buscar filmes através de uma API
+- Filtrar filmes conforme genêro
+
+![vídeo tela](https://github.com/ricardoltt/watchme/blob/main/.github/gif-site.gif)
 
 ## :white_check_mark: Requerimentos
 
