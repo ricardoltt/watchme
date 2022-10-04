@@ -1,10 +1,20 @@
-<img alt="ignite" src="https://github.com/ricardoltt/watchme/blob/main/.github/background.png" />
+<img alt="ignite" src="./.github/background.png" />
+
+___
+
+<div align="center">
+    <img alt="logo" src="./.github/logo.png" >
+</div>
 
 ## :dart: Sobre
 
-O projeto watchme é uma aplicação que exibe uma listagem de filmes por categoria com base na categoria selecionada e de dados de uma API (fake API com JSON Server).<br>
+Uma aplicação de visualização de filmes filtrando por gênero.
 
-<img alt="exemplo da tela" src="https://github.com/ricardoltt/watchme/blob/main/.github/1.png" />
+Desenvolvido a partir de um projeto pronto, com o objetivo de treinar o conhecimento refatorando a aplicação, tirando toda a responsabilidade do arquivo App, componetizando a aplicação. Utilizado uma fake API com JSON-Server para obter informações dos filmes.
+
+Essa mesma aplicação foi utilizada para treinar alguns conceitos de performance do React, como o memo, useMemo e useCallback.
+
+<img alt="exemplo da tela" src="./.github/1.png" />
 
 ## :rocket: Tecnologias
 
@@ -39,3 +49,6 @@ $ yarn dev
 
 # The server will initialize in the <http://localhost:8080>
 ```
+
+### Let's code! 🚀
+Made with love by **Ricardo Temoteo** ❤️ Me adiciona no [Linkedin!](https://www.linkedin.com/in/ricardoltt/)
