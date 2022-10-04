@@ -3,7 +3,7 @@
 ___
 
 <div align="center">
-    <img alt="logo" src="./.github/logo.png" >
+    <img alt="logo" src="./.github/logo.png" height="50">
 </div>
 
 ## :dart: Sobre
@@ -49,6 +49,7 @@ $ yarn dev
 
 # The server will initialize in the <http://localhost:8080>
 ```
+<center>
 
 ### Let's code! 🚀
 Made with love by **Ricardo Temoteo** ❤️ Me adiciona no [Linkedin!](https://www.linkedin.com/in/ricardoltt/)
